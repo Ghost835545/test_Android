@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_created_tests"
+            android:title="Составленные тесты"
+            android:icon="@drawable/ic_created_tests"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/item_users"
+            android:title="Список пользователей"
+            android:icon="@drawable/ic_users"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/item_tests"
+            android:icon="@drawable/ic_tests"
+            android:title="@string/item_menu_tests"
+            android:visible="false"/>
+        <item
+            android:id="@+id/item_result"
+            android:icon="@drawable/ic_results"
+            android:title="@string/item_menu_result"
+            android:visible="false"/>
+        <item
+            android:id="@+id/item_rating"
+            android:icon="@drawable/ic_rating"
+            android:title="@string/item_menu_rating"
+            android:visible="false"/>
+
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/separator">
+
+            <item
+                android:id="@+id/item_about"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/item_about" />
+
+   </group>
+
+</menu>

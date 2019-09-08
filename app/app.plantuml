@@ -1,0 +1,532 @@
+@startuml
+
+title __APP's Class Diagram__\n
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Answer {
+      }
+    }
+  }
+  
+
+  package com.android.databinding.library.baseAdapters {
+    class BR {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class BR {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class BuildConfig {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      class Connection {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.util.striBog {
+      class Data {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class DataBinderMapperImpl {
+    }
+  }
+  
+
+  package android.databinding {
+    class DataBinderMapperImpl {
+    }
+  }
+  
+
+  package android.databinding {
+    interface DataBindingComponent {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class DataBindingInfo {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Direction {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class Disciplines {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class DownTimer {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Faculty {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.fragment {
+      class FragmentRating {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.fragment {
+      class FragmentResult {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.fragment {
+      class FragmentTests {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.fragment {
+      class FragmentUsers {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Group {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.Util.exceptions {
+      class InvalidVectorLenException {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.activity {
+      class LoginActivity {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.activity {
+      class NavigationActivity {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.util.editSpinner {
+      class NothingSelectedSpinnerAdapter {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Question {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class RVAdapter {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class RVAdapterStudent {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.activity {
+      class RegistrationActivity {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class ResultQuestion {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class ResultTest {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.activity {
+      class ResultsOfSelectedTestActivity {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Role {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class Security {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class SingletResultQuestions {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class SingletTests {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class SingletUsers {
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.util.striBog {
+      abstract class Stribog {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.util.striBog {
+      class Stribog256 {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.util.striBog {
+      class Stribog512 {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.util.striBog {
+      class StribogProvider {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Subject {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Test {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.activity {
+      class TestActivity {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class Theme {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLAnswerService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLDirectionService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLFacultyService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLGroupService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLPositionService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLQuestionService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLResultQuestionService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLResultTestService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLRoleService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLSubjectService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLTestService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLThemeService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLUserService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLWebService {
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.entity {
+      class User {
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    class Variables {
+    }
+  }
+  
+
+  Answer o-- User : user
+  Answer o-- Question : question
+  DataBinderMapperImpl -up-|> DataBinderMapper
+  DataBinderMapperImpl -up-|> MergedDataBinderMapper
+  Direction o-- Faculty : faculty
+  DownTimer o-- TestActivity : activity
+  FragmentRating -up-|> Fragment
+  FragmentResult -up-|> Fragment
+  FragmentTests -up-|> Fragment
+  FragmentTests o-- MyExpandableListAdapter : adapter
+  FragmentUsers -up-|> Fragment
+  FragmentUsers o-- UserAdapter : mAdapter
+  Group o-- Role : role
+  Group o-- Direction : direction
+  LoginActivity -up-|> LoaderCallbacks
+  LoginActivity -up-|> AppCompatActivity
+  LoginActivity o-- UserLoginTask : mAuthTask
+  NavigationActivity -up-|> OnNavigationItemSelectedListener
+  NavigationActivity -up-|> AppCompatActivity
+  NothingSelectedSpinnerAdapter -up-|> SpinnerAdapter
+  NothingSelectedSpinnerAdapter -up-|> ListAdapter
+  Question o-- Theme : theme
+  Question o-- User : user
+  RVAdapter -up-|> Adapter
+  RVAdapterStudent -up-|> Adapter
+  RegistrationActivity -up-|> AppCompatActivity
+  RegistrationActivity o-- Role : Role
+  ResultQuestion o-- Question : question
+  ResultQuestion o-- Answer : answer
+  ResultQuestion o-- ResultTest : resultTest
+  ResultQuestion o-- User : user
+  ResultTest o-- User : user
+  ResultTest o-- Test : test
+  ResultsOfSelectedTestActivity -up-|> AppCompatActivity
+  ResultsOfSelectedTestActivity o-- ResultQuestionsAdapter : mResultQuestionsAdapter
+  Stribog -up-|> MessageDigestSpi
+  Stribog256 -up-|> Stribog
+  Stribog512 -up-|> Stribog
+  StribogProvider -up-|> Provider
+  Test o-- User : user
+  Test o-- Subject : subject
+  TestActivity -up-|> AppCompatActivity
+  TestActivity o-- User : user
+  TestActivity o-- Test : selectedTest
+  TestActivity o-- MyArrayAdapter : mArrayAdapter
+  TestActivity o-- ResultTest : resultTest
+  TestActivity o-- DownTimer : countDownTimer
+  User o-- Role : role
+  User o-- Direction : direction
+  User o-- Group : group
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml

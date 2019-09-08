@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView_answers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:checkMark="@drawable/textviewcheckedcall"
+        android:gravity="end|center_vertical"
+        android:paddingStart="?android:attr/listPreferredItemPaddingLeft"
+        android:textStyle="normal"
+        android:textSize="7pt" />
+
+</LinearLayout>

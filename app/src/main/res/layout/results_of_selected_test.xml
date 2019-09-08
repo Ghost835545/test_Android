@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_of_selected_test"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="7pt"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <ProgressBar
+        android:id="@+id/results_tests"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@id/title_of_selected_test"
+        android:id="@+id/recycler_view_result_questions"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"/>
+
+    <GridLayout
+        android:id="@+id/page_of_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recycler_view_result_questions"
+        android:columnCount="6"
+        android:rowCount="2">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:gravity="center"
+            android:text="@string/points_of_test"
+            android:textSize="7pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/points_of_test"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:gravity="center"
+            android:textSize="7pt"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="4"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:text="@string/errors_of_test"
+            android:textSize="7pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/errors_of_test"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="5"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="7pt"
+            />
+
+    </GridLayout>
+</RelativeLayout>

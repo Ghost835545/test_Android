@@ -1,0 +1,252 @@
+@startuml
+
+title __URL's Class Diagram__\n
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLAnswerService {
+            {static} - URL : String
+            {static} + URL_ANSWER : String
+            {static} + URL_ANSWERS : String
+            {static} + URL_ANSWER_BY_QUESTION : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLDirectionService {
+            {static} - URL : String
+            {static} + URL_DIRECTION : String
+            {static} + URL_DIRECTIONS : String
+            {static} + URL_DIRECTIONS_BY_FACULTY : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLFacultyService {
+            {static} - URL : String
+            {static} + URL_FACULTY : String
+            {static} + URL_FACULTIES : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLGroupService {
+            {static} - URL : String
+            {static} + URL_GROUP : String
+            {static} + URL_GROUPS : String
+            {static} + URL_GROUPS_BY_ROLE : String
+            {static} + URL_GROUPS_BY_DIRECTION : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLPositionService {
+            {static} - URL : String
+            {static} + URL_POSITION : String
+            {static} + URL_POSITIONS : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLQuestionService {
+            {static} - URL : String
+            {static} + URL_QUESTION : String
+            {static} + URL_QUESTIONS : String
+            {static} + URL_QUESTIONS_BY_THEME : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLResultQuestionService {
+            {static} - URL : String
+            {static} + URL_RESULT_QUESTION : String
+            {static} + URL_RESULT_QUESTIONS : String
+            {static} + URL_RESULT_QUESTIONS_BY_RESULT_TEST : String
+            {static} + URL_RESULT_QUESTIONS_BY_QUESTION_AND_RESULT_TEST : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+            {static} + URL_DELETE_BY_ID : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLResultTestService {
+            {static} - URL : String
+            {static} + URL_RESULT_TEST : String
+            {static} + URL_RESULT_TESTS : String
+            {static} + URL_RESULT_TESTS_BY_USER : String
+            {static} + URL_RESULT_TESTS_BY_USER_TESTS : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+            {static} + URL_FIX_RESULT : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLRoleService {
+            {static} - URL : String
+            {static} + URL_ROLE : String
+            {static} + URL_ROLES : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLSubjectService {
+            {static} - URL : String
+            {static} + URL_SUBJECT : String
+            {static} + URL_SUBJECTS : String
+            {static} + URL_SUBJECTS_BY_USER : String
+            {static} + URL_SUBJECTS_BY_DIRECTION : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLTestService {
+            {static} - URL : String
+            {static} + URL_TEST : String
+            {static} + URL_TESTS : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+            {static} + URL_TESTS_BY_SUBJECT : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLThemeService {
+            {static} - URL : String
+            {static} + URL_THEME : String
+            {static} + URL_THEMES : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLUserService {
+            {static} - URL : String
+            {static} + URL_ADD : String
+            {static} + URL_DELETE : String
+            {static} + URL_UPDATE : String
+            {static} + URL_SIGN_IN : String
+            {static} + URL_USER : String
+            {static} + URL_USERS : String
+            {static} + URL_SEARCH : String
+            {static} + URL_USER_BY_EMAIL : String
+            {static} + URL_USER_BY_LOGIN : String
+            {static} + URL_STUDENTS : String
+        }
+      }
+    }
+  }
+  
+
+  package com.example.ivan.loginapp {
+    package com.example.ivan.loginapp.rest {
+      package com.example.ivan.loginapp.rest.url {
+        class URLWebService {
+            {static} + URL : String
+        }
+      }
+    }
+  }
+  
+
+
+
+right footer
+
+
+PlantUML diagram generated by SketchIt! (https://bitbucket.org/pmesmeur/sketch.it)
+For more information about this tool, please contact philippe.mesmeur@gmail.com
+endfooter
+
+@enduml
